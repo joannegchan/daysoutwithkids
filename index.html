@@ -78,28 +78,30 @@
           <div class="carousel-inner">
       
             <div class="item active">
-              <a href="https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/cliveden/visiting-cliveden-with-family" target="_blank"><img src="cliveden_estate.webp" alt="Cliveden, Berkshire" style="width:100%;"></a>
+              <a href="https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/cliveden/visiting-cliveden-with-family" target="_blank"><img src="cliveden_estate.webp" alt="Cliveden, Berkshire" style="width:100%;">
               <div class="carousel-caption">
                 <h3>Cliveden, Berkshire</h3>
                 <p>Adventure trails and boating</p>
               </div>
+            </a>
             </div>
       
             <div class="item">
-              <a href="https://waddesdon.org.uk/your-visit/plan-your-day/for-families/" target="_blank"><img src="waddesdon_playground.jpg" alt="Waddesdon, Buckinghamshire" style="width:100%;"></a>
+              <a href="https://waddesdon.org.uk/your-visit/plan-your-day/for-families/" target="_blank"><img src="waddesdon_playground.jpg" alt="Waddesdon, Buckinghamshire" style="width:100%;">
               <div class="carousel-caption">
                 <h3>Waddesdon, Buckinghamshire</h3>
                 <p>Woodland playground and gardens</p>
               </div>
+            </a>
             </div>
           
             <div class="item">
-              <a href="https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/belton-house/visiting-belton-with-family" target="_blank"><img src="beltonhouse_playground.jpg" alt="Belton House, Lincolnshire" style="width:100%;"></a>
+              <a href="https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/belton-house/visiting-belton-with-family" target="_blank"><img src="beltonhouse_playground.jpg" alt="Belton House, Lincolnshire" style="width:100%;">
               <div class="carousel-caption">
-                
                 <h3>Belton House, Lincolnshire</h3>
                 <p>Adventure playground and a vast parkland</p>
               </div>
+            </a>
             </div>
         
           </div>
@@ -117,15 +119,24 @@
       </div>
   </div>
 
-  <div class="container">
-    <h2 id="randomheader">Feeling random?</h2>
-    <form>
-      <input type="text" name="search" placeholder="Search">
-    </form>
+
+<div class="container">
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <h2 id="randomheader">Feeling random?</h2>
+      </div>
+      <div class="flip-box-back">
+        <button onclick="myFunction()" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Get me to a day out</button>
+        <script>
+          function myFunction() {
+            location.replace("https://minitravellers.co.uk/100-national-trust-days-out-with-children/")
+          }
+          </script>          
+      </div>
+    </div>
   </div>
-
-
-
+</div>
     
 </body>
 </html>
