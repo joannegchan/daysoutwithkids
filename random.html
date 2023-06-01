@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <label for="county" onclick="county">Choose a county:</label>
+<select id="county" name="counties" size="4" multiple>
+  <option value="hertfordshire">Hertfordshire</option>
+  <option value="buckinghamshire">Buckinghamshire</option>
+  <option value="essex">Essex</option>
+  <option value="london">London</option>
+</select>
+
+<input id="county" option="counties">
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function county() {
+  var value = document.getElementById("county").value;
+  var option;
+
+  if (value === "hertfordshire") {
+    text = "Knebworth House";
+
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+</html>
